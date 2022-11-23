@@ -1,0 +1,162 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 44px 0 144px 76px;
+}
+
+.link-section {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-left: 23px;
+
+}
+
+.button-section {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+    height: 41px;
+    width: 130px;
+    margin-left: 23px;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-div {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    background: #ADFF00;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    width: 239px;
+    height: 64px;
+    margin-bottom: 200px;
+
+}
+
+@media screen and (max-width: 800px) {
+    section {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 390px) {
+    .img-logo {
+        margin: 149px 22px 24px 14px;
+        width: 80%;
+        height: 80%;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-div {
+        margin-top: 17px;
+    }
+
+    div {
+        margin-left: 64px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .img-logo {
+        width: 90%;
+        height: 90%;
+        margin: 149px 22px 24px 14px;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 61px;
+        margin-top: 20px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 10px;
+        margin-left: 15px;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    .button-div {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .img-logo {
+        width: 85%;
+    }
+}   
